@@ -4,8 +4,6 @@ import {config} from '../helpers/config';
 let driver;
 beforeAll(async () => {
   driver = await getDriver(config.browser);
-  console.log(driver)
-  console.log('Driver initialized successfully');
 });
 
 
