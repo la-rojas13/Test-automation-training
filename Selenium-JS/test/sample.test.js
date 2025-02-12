@@ -15,8 +15,8 @@ afterAll(async () => {
 
 describe('Sample test', () => {
   it('should  get the expected title', async () => {
-    await driver.get('https://google.com');
-    let title = await driver.getTitle();
-    expect(title).toBe('Google')
+    await driver.get(config.baseUrl);
+    const title = await driver.getTitle();
+    expect(title).toBe('An Amazing EverShop Store');
   });
 });

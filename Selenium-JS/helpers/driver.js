@@ -16,7 +16,7 @@ switch(browser){
     driver = await new Builder().forBrowser('chrome').build();
     break;
     default:
-    throw new Error('Unsupported browser')
+    throw new Error('Unsupported browser');
 }
 return driver;
 }
