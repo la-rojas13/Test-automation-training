@@ -28,4 +28,5 @@ describe('Create account page', () => {
         let message = await page.errorMessage();
         expect(message).toBe(true);
     });
+
 })
